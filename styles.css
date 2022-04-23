@@ -1,0 +1,342 @@
+/* box-sizing: border-box;*/
+
+body {
+  margin: 0;
+  padding-top: 32px;
+  padding-left: 12px;
+  font-size: 1rem;
+  /*
+  font-family: 'Playfair Display', serif.
+  font-family: 'Montserrat', sans-serif;
+  */
+}
+header, main {max-width: 800px;}
+
+/*HEADER*/
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  margin-left: 12px;
+
+}
+.header-text {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+.six-dots {
+  align-self: baseline;
+}
+.header-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #4F4F4F;
+}
+.six-dots, .header-intro {
+  margin: 0;
+  align-self: baseline;
+}
+.header-img-div {
+  display: flex;
+  justify-content: center;
+
+}
+.cheese-cake-img {
+  /*width: 352px;*/
+  height: 214px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/*MAIN*/
+/*PREPINFO*/
+.prep-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1em 1em 0;;
+  gap: 21px;
+
+}
+/*Yeild serving part*/
+.yeild-serving {
+  display: flex;
+  gap: 6px;
+}
+.yield-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.knife-spoon {
+  width 13.5px
+  height 12.7px
+  background-color: #F2994A;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.mini-yield {
+  display: flex;
+  flex-direction: column;
+}
+.yield-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin: 0;
+}
+.serving-text {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #F2994A;
+  margin: 0;
+}
+/*Cooking time*/
+.cooking-duration {
+display: flex;
+justify-content: space-between;
+
+
+}
+.cooking-portion {
+display: flex;
+justify-content: space-between;
+gap: 3px;
+
+}
+.cooking-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #BDBDBD;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+.cooking-time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*SECTION*/
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+/*Ingredients*/
+
+.ing-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.ingredients {
+  margin-top: 5px;
+}
+.cracker-text {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.craker-ul > li {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  letter-spacing: 1px;
+  list-style-type:square;
+}
+
+.craker-ul li:first-child {
+  margin-bottom: 5px;
+}
+.craker-ul li:last-child {
+margin-top: 14px;
+}
+strong {letter-spacing: normal;}
+
+/*Cheesecake*/
+
+.cheese-text {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.cheese-cake-ul {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+.cheese-cake-ul li {
+  margin-bottom: 5px;
+}
+
+/*INSTRUCTION*/
+
+.inst-title: {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+.instruction-div {
+
+}
+.inst-content {
+  display: flex;
+  justify-content: space-around;
+
+}
+.content-no {
+  width: 36px;
+  height: 36px;
+  background: #F2994A;
+  border-radius: 6px;
+  text-align: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+  border: 1px solid black;
+
+}
+span {
+  width: 13px;
+  height: 32px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.content-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+.footer-source {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #BDBDBD;
+  text-align: center;
+}
+
+.footer-text {
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+
+
+/*MEDIA QUERY*/
+
+/*Main*/
+@media (min-width: 500px) {
+  main {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.prep-info {
+  order: 2;
+  padding: 20px 5px;
+  height: 200px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  flex-basis: 150px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.cooking-duration {
+  flex-direction: column;
+  gap: 20px;
+
+}
+.cooking-portion {
+
+}
+}
